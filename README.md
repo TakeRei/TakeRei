@@ -2,14 +2,14 @@
   <img src="./assets/header.svg" alt="Hi, I'm TakeRei - XR Developer / MR x Projection Mapping" width="100%">
 </p>
 
-# こんにちは、TakeRei です 👋
+# こんにちは、竹澤麗加(TakeRei) です 👋
 
 金沢工業大学 大学院 修士1年(2028年3月修了予定)です。**Unity / C# で VR・AR・MR コンテンツ**を開発しています。
 「新しい技術(特に XR)で、人の心や行動を動かす体験をつくる」ことを目標に、企画から実装・改善まで一貫して取り組んでいます。
 
 > [!NOTE]
 > このアカウントは、これまでに制作してきた作品を就職活動用に整理して公開するため、2026年に新しく作成したものです。
-> 制作自体は学部1年次(2022年)から続けており、コミット履歴は本アカウント作成以降のものになっています。
+> 制作自体は学部2年次(2023年)から続けており、コミット履歴は本アカウント作成以降のものになっています。
 
 ---
 
@@ -28,7 +28,7 @@ MR 空間での操作とその結果を、PM でどう見せれば非装着者�
 | --- | --- |
 | 言語 | C#(最も得意) |
 | ゲームエンジン | Unity |
-| XR デバイス | HoloLens 2 / Meta Quest 3 / VIVE Focus 3 / Magic Leap 1 |
+| XR デバイス | HoloLens 2 / Meta Quest 2 / Meta Quest 3 / VIVE Focus 3 / Magic Leap 1 |
 | 3D・空間スキャン | Blender / Matterport |
 | 映像・インタラクティブ | TouchDesigner / Adobe After Effects / Adobe Photoshop |
 
@@ -45,6 +45,6 @@ MR 空間での操作とその結果を、PM でどう見せれば非装着者�
 
 ## 🙋 About me
 
-- 🏂 趣味:スノーボード
+- 💼 趣味:旅行・スノーボード
 - 🏃 日課:ランニング
 - 🦀 好きな食べ物:カニ味噌、ホルモン

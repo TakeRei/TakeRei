@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200" role="img" aria-label="Hi, I'm TakeRei - XR Developer / MR x Projection Mapping">
+<style>
+.font{font-family:'Trebuchet MS','Avenir Next','Segoe UI','Hiragino Maru Gothic ProN',Verdana,sans-serif}
+.s1,.s2{animation-timing-function:linear;animation-iteration-count:infinite}
+.s1{animation-name:fall1}
+.s2{animation-name:fall2}
+@keyframes fall1{0%{transform:translate(0,0)}25%{transform:translate(8px,55px)}50%{transform:translate(0,110px)}75%{transform:translate(-8px,165px)}100%{transform:translate(0,220px)}}
+@keyframes fall2{0%{transform:translate(0,0)}25%{transform:translate(-7px,55px)}50%{transform:translate(0,110px)}75%{transform:translate(7px,165px)}100%{transform:translate(0,220px)}}
+.t1{opacity:0;animation:pop .9s cubic-bezier(.3,1.5,.5,1) .3s forwards}
+.t2{opacity:0;animation:pop .9s cubic-bezier(.3,1.5,.5,1) .9s forwards}
+.t3{opacity:0;animation:pop .9s cubic-bezier(.3,1.5,.5,1) 1.5s forwards}
+@keyframes pop{0%{opacity:0;transform:translateY(14px)}100%{opacity:1;transform:translateY(0)}}
+.puff{animation:puff .5s ease-out infinite}
+@keyframes puff{0%{opacity:.9;transform:translateX(0)}100%{opacity:0;transform:translateX(-10px)}}
+.scarf{animation:flap .4s ease-in-out infinite alternate}
+@keyframes flap{to{transform:translateY(-2px)}}
+.sway{transform-box:fill-box;transform-origin:50% 100%;animation:sway 3s ease-in-out infinite}
+@keyframes sway{0%,100%{transform:rotate(-3deg)}50%{transform:rotate(3deg)}}
+.wave{transform-box:fill-box;transform-origin:0% 100%;animation:wave .8s ease-in-out infinite alternate}
+@keyframes wave{from{transform:rotate(-12deg)}to{transform:rotate(14deg)}}
+.sun{animation:glow 5s ease-in-out infinite}
+@keyframes glow{50%{opacity:.75}}
+</style>
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfe9fb"/><stop offset="1" stop-color="#f4faff"/></linearGradient>
+<linearGradient id="snowg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#e3f0fa"/></linearGradient>
+<clipPath id="frame"><rect width="800" height="200" rx="16"/></clipPath>
+</defs>
+<g clip-path="url(#frame)">
+<rect width="800" height="200" fill="url(#sky)"/>
+<circle class="sun" cx="735" cy="40" r="20" fill="#fff3c4"/>
+<circle cx="735" cy="40" r="13" fill="#ffe08a"/>
+<path d="M 330 200 L 470 70 L 520 110 L 600 40 L 720 150 L 800 110 L 800 200 Z" fill="#b9d8ee"/>
+<path d="M 470 70 L 452 87 L 462 84 L 470 92 L 480 84 L 488 87 Z M 600 40 L 580 58 L 592 55 L 600 64 L 610 55 L 621 59 Z" fill="#ffffff"/>
+<path d="M 340 210 C 380 170, 400 104, 450 100 C 500 106, 540 126, 575 136 C 600 143, 615 126, 640 128 C 665 130, 710 162, 860 182 L 860 210 Z" fill="url(#snowg)"/>
+<path d="M 0 200 L 0 172 C 120 160, 260 168, 400 182 L 420 200 Z" fill="url(#snowg)"/>
+<g transform="translate(485 110) scale(0.75)"><rect x="-2" y="-4" width="4" height="8" fill="#8a6a55"/><polygon points="0,-40 -14,-14 14,-14" fill="#5f9e8a"/><polygon points="0,-30 -17,-2 17,-2" fill="#4f8c79"/><path d="M0,-40 L-7,-27 Q-3,-24 0,-28 Q3,-24 7,-27 Z" fill="#ffffff"/><path d="M-9,-14 Q-4,-11 0,-15 Q4,-11 9,-14 L6,-19 L-6,-19 Z" fill="#ffffff" opacity=".9"/></g><g transform="translate(515 118) scale(0.6)"><rect x="-2" y="-4" width="4" height="8" fill="#8a6a55"/><polygon points="0,-40 -14,-14 14,-14" fill="#5f9e8a"/><polygon points="0,-30 -17,-2 17,-2" fill="#4f8c79"/><path d="M0,-40 L-7,-27 Q-3,-24 0,-28 Q3,-24 7,-27 Z" fill="#ffffff"/><path d="M-9,-14 Q-4,-11 0,-15 Q4,-11 9,-14 L6,-19 L-6,-19 Z" fill="#ffffff" opacity=".9"/></g><g transform="translate(700 168) scale(0.9)"><rect x="-2" y="-4" width="4" height="8" fill="#8a6a55"/><polygon points="0,-40 -14,-14 14,-14" fill="#5f9e8a"/><polygon points="0,-30 -17,-2 17,-2" fill="#4f8c79"/><path d="M0,-40 L-7,-27 Q-3,-24 0,-28 Q3,-24 7,-27 Z" fill="#ffffff"/><path d="M-9,-14 Q-4,-11 0,-15 Q4,-11 9,-14 L6,-19 L-6,-19 Z" fill="#ffffff" opacity=".9"/></g><g transform="translate(740 175) scale(0.7)"><rect x="-2" y="-4" width="4" height="8" fill="#8a6a55"/><polygon points="0,-40 -14,-14 14,-14" fill="#5f9e8a"/><polygon points="0,-30 -17,-2 17,-2" fill="#4f8c79"/><path d="M0,-40 L-7,-27 Q-3,-24 0,-28 Q3,-24 7,-27 Z" fill="#ffffff"/><path d="M-9,-14 Q-4,-11 0,-15 Q4,-11 9,-14 L6,-19 L-6,-19 Z" fill="#ffffff" opacity=".9"/></g>
+<g>
+<g transform="scale(0.72) translate(0 -9)">
+<g class="puff">
+  <circle cx="-36" cy="4" r="6" fill="#ffffff"/>
+  <circle cx="-48" cy="-1" r="4.5" fill="#ffffff"/>
+  <circle cx="-58" cy="4" r="3.2" fill="#ffffff"/>
+</g>
+<rect x="-30" y="2" width="60" height="8" rx="4" fill="#ff8a65"/>
+<rect x="-24" y="4" width="48" height="2" rx="1" fill="#ffffff" opacity=".5"/>
+<g>
+  <animateTransform attributeName="transform" type="rotate" dur="3s" repeatCount="indefinite" values="-3 0 4;3 0 4;-3 0 4" calcMode="spline" keyTimes="0;0.5;1" keySplines=".45 0 .55 1;.45 0 .55 1"/>
+  <path d="M -25,-18 C -27,-36 -14,-47 1,-46 C 16,-45 27,-34 25,-17 C 24,-2 14,5 -2,4 C -17,4 -24,-5 -25,-18 Z" fill="#ffffff" stroke="#d6e6f3" stroke-width="1.5"/>
+  <path d="M-24,-18 L-38,-28 M-32,-24 L-36,-33" stroke="#8a6a55" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <g><animateTransform attributeName="transform" type="rotate" dur="1.6s" repeatCount="indefinite" values="-12 24 -20;14 24 -20;-12 24 -20" calcMode="spline" keyTimes="0;0.5;1" keySplines=".45 0 .55 1;.45 0 .55 1"/><path d="M24,-20 L38,-34 M32,-28 L40,-28" stroke="#8a6a55" stroke-width="2.5" stroke-linecap="round" fill="none"/></g>
+  <circle cx="-7" cy="-30" r="1.9" fill="#2f3e66"/><circle cx="7" cy="-30" r="1.9" fill="#2f3e66"/>
+  <ellipse cx="-12" cy="-24" rx="3.2" ry="1.9" fill="#ffc2cf"/><ellipse cx="12" cy="-24" rx="3.2" ry="1.9" fill="#ffc2cf"/>
+  <polygon points="0,-27 12,-24 0,-23.5" fill="#ff9a3d"/>
+  <path d="M-4,-20 Q0,-17 4,-20" stroke="#2f3e66" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+  <path d="M-22,-15 Q0,-7 22,-15 L21,-10 Q0,-2 -21,-10 Z" fill="#4a8fe7"/>
+  <rect x="8" y="-12" width="5" height="13" rx="2" fill="#4a8fe7" transform="rotate(-10 10 -12)"/>
+  <g transform="rotate(-9 0 -44)"><path d="M-14,-40 Q-14,-57 0,-57 Q14,-57 14,-40 Z" fill="#ff6f91"/>
+  <rect x="-15" y="-43" width="30" height="5" rx="2.5" fill="#ff8fab"/>
+  <circle cx="0" cy="-59" r="4" fill="#ffffff"/></g>
+</g>
+</g>
+<animateMotion dur="6s" repeatCount="indefinite" rotate="auto" path="M 450 96 C 500 102, 540 122, 575 132 C 600 139, 615 122, 640 124 C 665 126, 710 158, 860 178"/>
+<animate attributeName="opacity" dur="6s" repeatCount="indefinite" values="0;1;1;0" keyTimes="0;0.08;0.85;1"/>
+</g>
+<circle class="s2" cx="463" cy="-8" r="3.4" fill="#ffffff" opacity="0.95" style="animation-duration:8.6s;animation-delay:-6.7s"/><circle class="s1" cx="462" cy="-8" r="2" fill="#ffffff" opacity="0.75" style="animation-duration:13.3s;animation-delay:-2.5s"/><circle class="s2" cx="524" cy="-8" r="1.6" fill="#ffffff" opacity="0.75" style="animation-duration:12.1s;animation-delay:-9.6s"/><circle class="s1" cx="96" cy="-8" r="3" fill="#ffffff" opacity="0.95" style="animation-duration:6.9s;animation-delay:-0.6s"/><circle class="s2" cx="710" cy="-8" r="2" fill="#ffffff" opacity="0.75" style="animation-duration:9.2s;animation-delay:-9.0s"/><circle class="s1" cx="463" cy="-8" r="2" fill="#ffffff" opacity="0.75" style="animation-duration:12.7s;animation-delay:-8.3s"/><circle class="s2" cx="638" cy="-8" r="2.4" fill="#ffffff" opacity="0.95" style="animation-duration:8.5s;animation-delay:-0.5s"/><circle class="s1" cx="36" cy="-8" r="1.2" fill="#ffffff" opacity="0.75" style="animation-duration:13.4s;animation-delay:-8.0s"/><circle class="s2" cx="796" cy="-8" r="1.6" fill="#ffffff" opacity="0.75" style="animation-duration:10.6s;animation-delay:-6.3s"/><circle class="s1" cx="200" cy="-8" r="3.4" fill="#ffffff" opacity="0.95" style="animation-duration:6.7s;animation-delay:-2.0s"/><circle class="s2" cx="4" cy="-8" r="2" fill="#ffffff" opacity="0.75" style="animation-duration:9.4s;animation-delay:-6.2s"/><circle class="s1" cx="416" cy="-8" r="2" fill="#ffffff" opacity="0.75" style="animation-duration:14.0s;animation-delay:-11.7s"/><circle class="s2" cx="724" cy="-8" r="3" fill="#ffffff" opacity="0.95" style="animation-duration:6.9s;animation-delay:-1.6s"/><circle class="s1" cx="295" cy="-8" r="1.2" fill="#ffffff" opacity="0.75" style="animation-duration:9.4s;animation-delay:-7.2s"/><circle class="s2" cx="410" cy="-8" r="1.2" fill="#ffffff" opacity="0.75" style="animation-duration:13.2s;animation-delay:-5.1s"/><circle class="s1" cx="17" cy="-8" r="3.4" fill="#ffffff" opacity="0.95" style="animation-duration:6.0s;animation-delay:-1.3s"/><circle class="s2" cx="53" cy="-8" r="1.6" fill="#ffffff" opacity="0.75" style="animation-duration:10.9s;animation-delay:-7.7s"/><circle class="s1" cx="429" cy="-8" r="1.2" fill="#ffffff" opacity="0.75" style="animation-duration:11.8s;animation-delay:-2.3s"/><circle class="s2" cx="691" cy="-8" r="3" fill="#ffffff" opacity="0.95" style="animation-duration:7.0s;animation-delay:-2.2s"/><circle class="s1" cx="15" cy="-8" r="1.6" fill="#ffffff" opacity="0.75" style="animation-duration:12.8s;animation-delay:-1.5s"/><circle class="s2" cx="252" cy="-8" r="2" fill="#ffffff" opacity="0.75" style="animation-duration:9.5s;animation-delay:-0.6s"/><circle class="s1" cx="498" cy="-8" r="2.4" fill="#ffffff" opacity="0.95" style="animation-duration:8.0s;animation-delay:-1.5s"/><circle class="s2" cx="521" cy="-8" r="1.2" fill="#ffffff" opacity="0.75" style="animation-duration:13.9s;animation-delay:-10.7s"/><circle class="s1" cx="429" cy="-8" r="2" fill="#ffffff" opacity="0.75" style="animation-duration:10.9s;animation-delay:-4.3s"/><circle class="s2" cx="217" cy="-8" r="2.4" fill="#ffffff" opacity="0.95" style="animation-duration:6.8s;animation-delay:-6.6s"/><circle class="s1" cx="606" cy="-8" r="1.6" fill="#ffffff" opacity="0.75" style="animation-duration:14.0s;animation-delay:-0.3s"/><circle class="s2" cx="191" cy="-8" r="1.6" fill="#ffffff" opacity="0.75" style="animation-duration:14.0s;animation-delay:-8.4s"/><circle class="s1" cx="590" cy="-8" r="2.4" fill="#ffffff" opacity="0.95" style="animation-duration:6.1s;animation-delay:-0.9s"/><circle class="s2" cx="452" cy="-8" r="1.6" fill="#ffffff" opacity="0.75" style="animation-duration:9.0s;animation-delay:-5.5s"/><circle class="s1" cx="303" cy="-8" r="1.6" fill="#ffffff" opacity="0.75" style="animation-duration:9.4s;animation-delay:-0.8s"/><circle class="s2" cx="596" cy="-8" r="3.4" fill="#ffffff" opacity="0.95" style="animation-duration:6.7s;animation-delay:-4.0s"/><circle class="s1" cx="380" cy="-8" r="2" fill="#ffffff" opacity="0.75" style="animation-duration:11.3s;animation-delay:-10.8s"/><circle class="s2" cx="495" cy="-8" r="2" fill="#ffffff" opacity="0.75" style="animation-duration:9.7s;animation-delay:-3.7s"/><circle class="s1" cx="642" cy="-8" r="2.4" fill="#ffffff" opacity="0.95" style="animation-duration:6.9s;animation-delay:-1.6s"/><circle class="s2" cx="625" cy="-8" r="1.2" fill="#ffffff" opacity="0.75" style="animation-duration:12.6s;animation-delay:-2.0s"/><circle class="s1" cx="644" cy="-8" r="2" fill="#ffffff" opacity="0.75" style="animation-duration:10.0s;animation-delay:-9.5s"/><circle class="s2" cx="494" cy="-8" r="3.4" fill="#ffffff" opacity="0.95" style="animation-duration:6.2s;animation-delay:-0.3s"/><circle class="s1" cx="111" cy="-8" r="1.2" fill="#ffffff" opacity="0.75" style="animation-duration:11.6s;animation-delay:-3.0s"/><circle class="s2" cx="757" cy="-8" r="2" fill="#ffffff" opacity="0.75" style="animation-duration:11.0s;animation-delay:-4.6s"/><circle class="s1" cx="610" cy="-8" r="3" fill="#ffffff" opacity="0.95" style="animation-duration:6.9s;animation-delay:-1.2s"/><circle class="s2" cx="737" cy="-8" r="1.2" fill="#ffffff" opacity="0.75" style="animation-duration:9.6s;animation-delay:-4.6s"/><circle class="s1" cx="669" cy="-8" r="2" fill="#ffffff" opacity="0.75" style="animation-duration:12.1s;animation-delay:-3.4s"/><circle class="s2" cx="208" cy="-8" r="3.4" fill="#ffffff" opacity="0.95" style="animation-duration:6.0s;animation-delay:-1.6s"/><circle class="s1" cx="456" cy="-8" r="1.2" fill="#ffffff" opacity="0.75" style="animation-duration:9.3s;animation-delay:-1.6s"/><circle class="s2" cx="377" cy="-8" r="2" fill="#ffffff" opacity="0.75" style="animation-duration:11.9s;animation-delay:-1.6s"/><circle class="s1" cx="370" cy="-8" r="2.4" fill="#ffffff" opacity="0.95" style="animation-duration:8.7s;animation-delay:-8.5s"/>
+<g class="font">
+<text class="t1" x="44" y="82" font-size="38" font-weight="700" fill="#2f3e66">Hi, I&#39;m TakeRei</text>
+<text class="t2" x="46" y="118" font-size="18" fill="#4a8fe7">XR Developer / MR x Projection Mapping</text>
+<text class="t3" x="46" y="146" font-size="14" fill="#6b7a99">Unity · C# · HoloLens 2 · Meta Quest 2 / 3</text>
+</g>
+</g>
+</svg>

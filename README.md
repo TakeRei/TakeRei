@@ -16,7 +16,7 @@ Unity / C# ・ HoloLens 2 ・ MetaQuest3 + mocopi
   <tr>
     <td width="33%" align="center"><img src="./assets/works/mr-tumiki.gif" alt="HoloLens 2 向けMR積み木の体験映像" width="100%"><br>MR積み木の体験映像(TumikiMR)</td>
     <td width="33%" align="center"><img src="./assets/works/mr-game-2.gif" alt="HoloLens 2 向けMRゲームのエフェクトとリザルト画面" width="100%"><br>MR食器洗いの体験映像</td>
-    <td width="33%" align="center"><img src="./assets/works/mr-room.gif" alt="Meta Quest 3 + mocopi のMRコンテンツの体験映像" width="100%"><br>足の動きに応じて水に波紋が広がる体験映像</td>
+    <td width="33%" align="center"><img src="./assets/works/mr-room.gif" alt="Meta Quest 3 + mocopi のMRコンテンツの体験映像" width="100%"><br>水に波紋が広がる体験映像</td>
   </tr>
 </table>
 
@@ -27,7 +27,7 @@ After Effects ・ Blender ・ TouchDesigner
   <tr>
     <td width="33%" align="center"><img src="./assets/works/pm-belltower.gif" alt="寺の鐘楼へのプロジェクションマッピング" width="100%"><br>寺の鐘楼への投影</td>
     <td width="33%" align="center"><img src="./assets/works/pm-yaizu.gif" alt="商業施設の外壁へのプロジェクションマッピング" width="100%"><br>商業施設の外壁への投影</td>
-    <td width="33%" align="center"><img src="./assets/works/pm-interactive.gif" alt="体験者の動きに反応するインタラクティブな投影コンテンツ" width="100%"><br>動きに反応するインタラクティブコンテンツ</td>
+    <td width="33%" align="center"><img src="./assets/works/pm-interactive.gif" alt="体験者の動きに反応するインタラクティブな投影コンテンツ" width="100%"><br>インタラクティブPM</td>
   </tr>
 </table>
 

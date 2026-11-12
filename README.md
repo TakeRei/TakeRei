@@ -35,8 +35,8 @@ After Effects ・ Blender ・ TouchDesigner
 
 <table>
   <tr>
-    <td width="25%" align="center"><img src="./assets/photos/hololens.jpg" alt="HoloLens 2でMRコンテンツを体験している様子" width="100%"><br>体験中の様子1（HoloLens 2）</td>
-    <td width="25%" align="center"><img src="./assets/photos/vive.jpg" alt="VIVE Focus 3でVRコンテンツを体験している様子" width="100%"><br>体験中の様子2（VIVE Focus 3）</td>
+    <td width="25%" align="center"><img src="./assets/photos/hololens.jpg" alt="HoloLens 2でMRコンテンツを体験している様子" width="100%"><br>体験中の様子1(HoloLens 2)</td>
+    <td width="25%" align="center"><img src="./assets/photos/vive.jpg" alt="VIVE Focus 3でVRコンテンツを体験している様子" width="100%"><br>体験中の様子2(VIVE Focus 3)</td>
     <td width="25%" align="center"><img src="./assets/photos/projector.jpg" alt="プロジェクションマッピングの投影準備をしている様子" width="100%"><br>PM投影の準備</td>
     <td width="25%" align="center"><img src="./assets/photos/pm-live.jpg" alt="イベント本番でプロジェクションマッピングを操作している様子" width="100%"><br>投影中の様子</td>
   </tr>

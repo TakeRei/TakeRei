@@ -10,28 +10,24 @@
 ## 🎨 What I do
 
 ### 🥽 XR コンテンツ開発
-<sub>Unity / C# ・ HoloLens 2 ・ MetaQuest3 + mocopi</sub>
+Unity / C# ・ HoloLens 2 ・ MetaQuest3 + mocopi
 
 <table>
   <tr>
-    <td width="48%" align="center"><img src="./assets/works/mr-tumiki.gif" alt="HoloLens 2 向けMR積み木の体験映像" width="100%"><br><sub>MR積み木の体験映像(TumikiMR)</sub></td>
-    <td width="48%" align="center"><img src="./assets/works/mr-game-2.gif" alt="HoloLens 2 向けMRゲームのエフェクトとリザルト画面" width="100%"><br><sub>MR食器洗いの体験映像</sub></td>
-  </tr>
-  <tr>
-    <td width="52%" align="center" rowspan="2"><img src="./assets/works/mr-room.gif" alt="MetaQuest3 + mocopi　MRコンテンツの体験映像" width="100%"><br><sub>足の動きに応じて水に波紋が広がる体験映像</sub></td>
+    <td width="33%" align="center"><img src="./assets/works/mr-tumiki.gif" alt="HoloLens 2 向けMR積み木の体験映像" width="100%"><br>MR積み木の体験映像(TumikiMR)</td>
+    <td width="33%" align="center"><img src="./assets/works/mr-game-2.gif" alt="HoloLens 2 向けMRゲームのエフェクトとリザルト画面" width="100%"><br>MR食器洗いの体験映像</td>
+    <td width="33%" align="center"><img src="./assets/works/mr-room.gif" alt="Meta Quest 3 + mocopi のMRコンテンツの体験映像" width="100%"><br>足の動きに応じて水に波紋が広がる体験映像</td>
   </tr>
 </table>
 
 ### 📽️ プロジェクションマッピング（PM）
-<sub>After Effects ・ Blender ・ TouchDesigner</sub>
+After Effects ・ Blender ・ TouchDesigner
 
 <table>
   <tr>
-    <td width="58%" align="center"><img src="./assets/works/pm-belltower.gif" alt="寺の鐘楼へのプロジェクションマッピング" width="100%"><br><sub>寺の鐘楼への投影</sub></td>
-    <td width="58%" align="center"><img src="./assets/works/pm-yaizu.gif" alt="商業施設の外壁へのプロジェクションマッピング" width="100%"><br><sub>商業施設の外壁への投影</sub></td>
-  </tr>
-  <tr>
-    <td width="42%" align="center" rowspan="2"><img src="./assets/works/pm-interactive.gif" alt="体験者の動きに反応するインタラクティブな投影コンテンツ" width="100%"><br><sub>動きに反応するインタラクティブコンテンツ</sub></td>
+    <td width="33%" align="center"><img src="./assets/works/pm-belltower.gif" alt="寺の鐘楼へのプロジェクションマッピング" width="100%"><br>寺の鐘楼への投影</td>
+    <td width="33%" align="center"><img src="./assets/works/pm-yaizu.gif" alt="商業施設の外壁へのプロジェクションマッピング" width="100%"><br>商業施設の外壁への投影</td>
+    <td width="33%" align="center"><img src="./assets/works/pm-interactive.gif" alt="体験者の動きに反応するインタラクティブな投影コンテンツ" width="100%"><br>動きに反応するインタラクティブコンテンツ</td>
   </tr>
 </table>
 
@@ -39,10 +35,10 @@
 
 <table>
   <tr>
-    <td width="25%" align="center"><img src="./assets/photos/hololens.jpg" alt="HoloLens 2でMRコンテンツを体験している様子" width="100%"><br><sub>コンテンツ体験中の様子1（HoloLens 2）</sub></td>
-    <td width="25%" align="center"><img src="./assets/photos/vive.jpg" alt="VIVE Focus 3でVRコンテンツを体験している様子" width="100%"><br><sub>コンテンツ体験中の様子2（VIVE Focus 3）</sub></td>
-    <td width="25%" align="center"><img src="./assets/photos/projector.jpg" alt="プロジェクションマッピングの投影準備をしている様子" width="100%"><br><sub>PM投影の準備</sub></td>
-    <td width="25%" align="center"><img src="./assets/photos/pm-live.jpg" alt="イベント本番でプロジェクションマッピングを操作している様子" width="100%"><br><sub>投影中の様子</sub></td>
+    <td width="25%" align="center"><img src="./assets/photos/hololens.jpg" alt="HoloLens 2でMRコンテンツを体験している様子" width="100%"><br>体験中の様子1（HoloLens 2）</td>
+    <td width="25%" align="center"><img src="./assets/photos/vive.jpg" alt="VIVE Focus 3でVRコンテンツを体験している様子" width="100%"><br>体験中の様子2（VIVE Focus 3）</td>
+    <td width="25%" align="center"><img src="./assets/photos/projector.jpg" alt="プロジェクションマッピングの投影準備をしている様子" width="100%"><br>PM投影の準備</td>
+    <td width="25%" align="center"><img src="./assets/photos/pm-live.jpg" alt="イベント本番でプロジェクションマッピングを操作している様子" width="100%"><br>投影中の様子</td>
   </tr>
 </table>
 

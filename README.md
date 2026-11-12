@@ -14,7 +14,7 @@ Unity / C# ・ HoloLens 2 ・ MetaQuest3 + mocopi
 
 <table>
   <tr>
-    <td width="33%" align="center"><img src="./assets/works/mr-tumiki.gif" alt="HoloLens 2 向けMR積み木の体験映像" width="100%"><br>MR積み木の体験映像(TumikiMR)</td>
+    <td width="33%" align="center"><img src="./assets/works/mr-tumiki.gif" alt="HoloLens 2 向けMR積み木の体験映像" width="100%"><br>MR積み木の体験映像</td>
     <td width="33%" align="center"><img src="./assets/works/mr-game-2.gif" alt="HoloLens 2 向けMRゲームのエフェクトとリザルト画面" width="100%"><br>MR食器洗いの体験映像</td>
     <td width="33%" align="center"><img src="./assets/works/mr-room.gif" alt="Meta Quest 3 + mocopi のMRコンテンツの体験映像" width="100%"><br>水に波紋が広がる体験映像</td>
   </tr>

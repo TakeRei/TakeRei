@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="270" viewBox="0 0 800 270" role="img" aria-label="MRの装着者と非装着者が、投影映像を通して同じ仮想キャラクターを共有するイメージ図">
+<style>
+.f{font-family:'Hiragino Maru Gothic ProN','Hiragino Sans','Yu Gothic UI','Meiryo','Noto Sans CJK JP','Trebuchet MS',sans-serif}
+.bob{animation:bob 2.4s ease-in-out infinite}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+.beam{animation:beam 2.4s ease-in-out infinite}
+@keyframes beam{0%,100%{opacity:.55}50%{opacity:.85}}
+.spark{animation:spark 1.6s ease-in-out infinite}
+@keyframes spark{0%,100%{opacity:0}50%{opacity:1}}
+.dash{animation:dash 1.2s linear infinite}
+@keyframes dash{to{stroke-dashoffset:-14}}
+</style>
+<defs>
+<linearGradient id="bg3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eaf5fd"/><stop offset="1" stop-color="#f8fcff"/></linearGradient>
+<linearGradient id="cone" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe08a" stop-opacity=".9"/><stop offset="1" stop-color="#ffe08a" stop-opacity=".15"/></linearGradient>
+</defs>
+<rect width="800" height="270" rx="16" fill="url(#bg3)"/>
+<rect x="0" y="222" width="800" height="48" fill="#e3eef8"/>
+<path d="M0,222 H800" stroke="#c9dcec" stroke-width="2"/>
+
+<!-- projector -->
+<rect x="375" y="18" width="50" height="22" rx="6" fill="#2f3e66"/>
+<circle cx="400" cy="40" r="6" fill="#ffe08a"/>
+<text class="f" x="440" y="34" font-size="13" fill="#6b7a99">プロジェクター</text>
+<polygon class="beam" points="394,44 406,44 470,234 330,234" fill="url(#cone)"/>
+
+<!-- projected image on the floor -->
+<ellipse cx="400" cy="234" rx="70" ry="12" fill="#fff3c4"/>
+<g transform="translate(400 238) scale(1 0.32)" opacity=".9"><g transform="scale(0.9)">
+<path d="M -25,-18 C -27,-36 -14,-47 1,-46 C 16,-45 27,-34 25,-17 C 24,-2 14,5 -2,4 C -17,4 -24,-5 -25,-18 Z" fill="#ffffff" stroke="#d6e6f3" stroke-width="1.5"/>
+<circle cx="-7" cy="-30" r="1.9" fill="#2f3e66"/><circle cx="7" cy="-30" r="1.9" fill="#2f3e66"/>
+<ellipse cx="-12" cy="-24" rx="3.2" ry="1.9" fill="#ffc2cf"/><ellipse cx="12" cy="-24" rx="3.2" ry="1.9" fill="#ffc2cf"/>
+<polygon points="0,-27 12,-24 0,-23.5" fill="#ff9a3d"/>
+<path d="M-22,-15 Q0,-7 22,-15 L21,-10 Q0,-2 -21,-10 Z" fill="#4a8fe7"/>
+<g transform="rotate(-9 0 -44)"><path d="M-14,-40 Q-14,-57 0,-57 Q14,-57 14,-40 Z" fill="#ff6f91"/>
+<rect x="-15" y="-43" width="30" height="5" rx="2.5" fill="#ff8fab"/><circle cx="0" cy="-59" r="4" fill="#ffffff"/></g>
+</g></g>
+<text class="f" x="400" y="262" font-size="13" fill="#6b7a99" text-anchor="middle">床への投影映像</text>
+
+<!-- virtual character (MR) -->
+<g class="bob"><g transform="translate(400 160)"><g transform="scale(1.15)">
+<path d="M -25,-18 C -27,-36 -14,-47 1,-46 C 16,-45 27,-34 25,-17 C 24,-2 14,5 -2,4 C -17,4 -24,-5 -25,-18 Z" fill="#ffffff" stroke="#4a8fe7" stroke-width="1.6" stroke-dasharray="4 3"/>
+<circle cx="-7" cy="-30" r="1.9" fill="#2f3e66"/><circle cx="7" cy="-30" r="1.9" fill="#2f3e66"/>
+<ellipse cx="-12" cy="-24" rx="3.2" ry="1.9" fill="#ffc2cf"/><ellipse cx="12" cy="-24" rx="3.2" ry="1.9" fill="#ffc2cf"/>
+<polygon points="0,-27 12,-24 0,-23.5" fill="#ff9a3d"/>
+<path d="M-22,-15 Q0,-7 22,-15 L21,-10 Q0,-2 -21,-10 Z" fill="#4a8fe7"/>
+<g transform="rotate(-9 0 -44)"><path d="M-14,-40 Q-14,-57 0,-57 Q14,-57 14,-40 Z" fill="#ff6f91"/>
+<rect x="-15" y="-43" width="30" height="5" rx="2.5" fill="#ff8fab"/><circle cx="0" cy="-59" r="4" fill="#ffffff"/></g>
+</g></g></g>
+<g fill="#4a8fe7">
+<path class="spark" d="M352,96 l3,7 7,3 -7,3 -3,7 -3,-7 -7,-3 7,-3z"/>
+<path class="spark" style="animation-delay:.8s" d="M446,92 l2,5 5,2 -5,2 -2,5 -2,-5 -5,-2 5,-2z"/>
+</g>
+<path d="M318,84 L362,104" stroke="#4a8fe7" stroke-width="1.2"/><text class="f" x="314" y="80" font-size="13" fill="#4a8fe7" text-anchor="end">MRの仮想キャラクター</text>
+
+<!-- people -->
+<g transform="translate(160 222)">
+<path d="M -20,0 L -20,-50 Q -20,-70 0,-70 Q 20,-70 20,-50 L 20,0 Z" fill="#4a8fe7"/>
+<circle cx="0" cy="-98" r="18" fill="#ffdcc2"/>
+<path d="M -18,-100 Q -18,-118 0,-118 Q 18,-118 18,-100 Q 10,-108 0,-108 Q -10,-108 -18,-100 Z" fill="#5a4636"/>
+<rect x="-13" y="-104" width="26" height="10" rx="5" fill="#2f3e66"/><rect x="-11" y="-102" width="22" height="6" rx="3" fill="#7fd3ff" opacity=".9"/>
+</g>
+<g transform="translate(640 222)">
+<path d="M -20,0 L -20,-50 Q -20,-70 0,-70 Q 20,-70 20,-50 L 20,0 Z" fill="#ff6f91"/>
+<circle cx="0" cy="-98" r="18" fill="#ffdcc2"/>
+<path d="M -18,-100 Q -18,-118 0,-118 Q 18,-118 18,-100 Q 10,-108 0,-108 Q -10,-108 -18,-100 Z" fill="#5a4636"/>
+<circle cx="-4" cy="-99" r="1.8" fill="#2f3e66"/><circle cx="4" cy="-99" r="1.8" fill="#2f3e66"/>
+</g>
+<path class="dash" d="M178,124 Q 280,110 345,130" stroke="#4a8fe7" stroke-width="2" fill="none" stroke-dasharray="7 7" stroke-linecap="round"/>
+<path class="dash" d="M622,124 Q 520,160 450,226" stroke="#ff6f91" stroke-width="2" fill="none" stroke-dasharray="7 7" stroke-linecap="round"/>
+<text class="f" x="160" y="250" font-size="15" font-weight="700" fill="#2f3e66" text-anchor="middle">MR 装着者</text>
+<text class="f" x="160" y="266" font-size="11" fill="#6b7a99" text-anchor="middle">ヘッドセットで見る</text>
+<text class="f" x="640" y="250" font-size="15" font-weight="700" fill="#2f3e66" text-anchor="middle">非装着者</text>
+<text class="f" x="640" y="266" font-size="11" fill="#6b7a99" text-anchor="middle">投影映像で見る</text>
+</svg>
